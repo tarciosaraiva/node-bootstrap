@@ -1,0 +1,30 @@
+{
+  "name": "node-bootstrap",
+  "version": "0.0.1",
+  "description": "Utility to create a new node.js project providing a basic directory structure",
+  "bin": {
+    "bootstrap": "./bootstrap"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tarciosaraiva/node-bootstrap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "node-bootstrap",
+    "new project",
+    "helper"
+  ],
+  "author": "Tarcio Saraiva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarciosaraiva/node-bootstrap/issues"
+  },
+  "homepage": "https://github.com/tarciosaraiva/node-bootstrap",
+  "dependencies": {
+    "init-package-json": "0.0.15"
+  }
+}
