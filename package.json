@@ -1,30 +1,33 @@
 {
-  "name": "node-bootstrap",
+  "name": "nodecreate",
   "version": "0.0.1",
   "description": "Utility to create a new node.js project providing a basic directory structure",
   "bin": {
-    "bootstrap": "./bootstrap"
+    "ncreate": "./bin/nodecreate"
   },
   "scripts": {
-    "start": "node ./bin/bootstrap",
     "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tarciosaraiva/node-bootstrap.git"
+    "url": "git://github.com/tarciosaraiva/nodecreate.git"
+  },
+  "engines": {
+    "node": ">=0.10.0"
   },
   "keywords": [
     "bootstrap",
-    "node-bootstrap",
+    "node",
+    "create",
     "new project",
     "helper"
   ],
   "author": "Tarcio Saraiva",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tarciosaraiva/node-bootstrap/issues"
+    "url": "https://github.com/tarciosaraiva/nodecreate/issues"
   },
-  "homepage": "https://github.com/tarciosaraiva/node-bootstrap",
+  "homepage": "https://github.com/tarciosaraiva/nodecreate",
   "dependencies": {
     "init-package-json": "0.0.15"
   },
