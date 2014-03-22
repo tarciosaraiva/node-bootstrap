@@ -31,3 +31,9 @@ Enter the name of the npm package you would like to install. For instance, by de
 Even if you decide to go with [jasmine](https://www.npmjs.org/package/jasmine-node) it will bring those extra dependencies along.
 
 All the dependencies mentioned above will be under `devDependencies` on your `package.json`.
+
+Contributing
+------------
+Yes, we have a [Trello board](https://trello.com/b/VTVJ9gLm/nodecreate). Feel free to add ideas.
+
+Or simply fork it, change it and submit a pull request.
