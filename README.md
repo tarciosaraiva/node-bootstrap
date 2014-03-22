@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/tarciosaraiva/nodecreate.svg?branch=master)](https://travis-ci.org/tarciosaraiva/nodecreate)
 [![Code Climate](https://codeclimate.com/github/tarciosaraiva/nodecreate.png)](https://codeclimate.com/github/tarciosaraiva/nodecreate)
 
-node-bootstrap
-==============
+nodecreate
+==========
 
 Bootstraps a new `node` application.
 
@@ -14,7 +14,7 @@ I built on that research and implemented a step previous to `npm init` which all
 
 How to run it
 -------------
-First install it by running `npm install -g node-bootstrap`.
+First install it by running `npm install -g nodecreate`.
 
 Then execute `ncreate` and you should be good. Here are the questions that get asked:
 
