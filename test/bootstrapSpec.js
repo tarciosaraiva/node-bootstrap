@@ -1,2 +1,2 @@
-var app = require('../bootstrap');
+var app = require('../lib/bootstrap');
 
