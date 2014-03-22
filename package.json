@@ -6,7 +6,8 @@
     "bootstrap": "./bootstrap"
   },
   "scripts": {
-    "test": "npm test"
+    "start": "node ./bin/bootstrap",
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
   "homepage": "https://github.com/tarciosaraiva/node-bootstrap",
   "dependencies": {
     "init-package-json": "0.0.15"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.x"
   }
 }
