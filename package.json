@@ -32,6 +32,7 @@
     "init-package-json": "0.0.15"
   },
   "devDependencies": {
-    "mocha": "~1.18.x"
+    "mocha": "~1.18.x",
+    "sinon": "^1.9.0"
   }
 }
