@@ -18,12 +18,11 @@ First install it by running `npm install -g nodecreate`.
 
 Then execute `ncreate` and you should be good. Here are the questions that get asked:
 
-1. Is your project in CoffeeScript?
-2. Please enter the name of new app:
-3. Would you like to store your app contributors in a lib directory?
-4. What test framework would you like to use?
-5. Would you like me to create a bin directory?
-6. Would you like to include a Travis file?
+1. Please enter the name of new app:
+2. Would you like to store your app contributors in a lib directory?
+3. What test framework would you like to use?
+4. Would you like me to create a bin directory?
+5. Would you like to include a Travis file?
 
 ###### A note about question #4 (testing framework)
 Enter the name of the npm package you would like to install. For instance, by default, it relies on [mocha](https://www.npmjs.org/package/mocha) and also brings along [chai](https://www.npmjs.org/package/chai), [sinon](https://www.npmjs.org/package/sinon) and [should](https://www.npmjs.org/package/should).
