@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-var app = require('../lib/nodecreate');
+var app = require('../app');
 app.run();
