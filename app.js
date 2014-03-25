@@ -5,12 +5,13 @@ var creation = require('./lib/creation');
 
 exports = module.exports = {};
 
+exports.app_name = process.cwd().split('/').pop();
 exports.answers = [exports.app_name, 'y', 'mocha', 'y', 'y'];
 
 exports.run = function () {
   var self = this,
     questions = [
-      'Please enter the name of new app [' + process.cwd().split('/').pop() + ']: ',
+      'Please enter the name of new app [' + this.app_name + ']: ',
       'Would you like to store your app contributors in a lib directory? [Yn]: ',
       'What test framework would you like to use? [mocha]: ',
       'Would you like me to create a bin directory? [Yn]: ',
