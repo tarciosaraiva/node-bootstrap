@@ -38,6 +38,7 @@ describe('creation', function () {
         assert.isTrue(fs.existsSync(__dirname + '/appSpec'));
         assert.isTrue(fs.existsSync(__dirname + '/appSpec/.travis.yml'));
         assert.isTrue(fs.existsSync(__dirname + '/appSpec/.jshintrc'));
+        assert.isTrue(fs.existsSync(__dirname + '/appSpec/.gitignore'));
         assert.isTrue(fs.existsSync(__dirname + '/appSpec/package.json'));
         assert.isTrue(fs.existsSync(__dirname + '/appSpec/bin'));
         assert.isTrue(fs.existsSync(__dirname + '/appSpec/lib'));
