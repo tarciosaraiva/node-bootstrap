@@ -6,7 +6,7 @@ var creation = require('./lib/creation');
 exports = module.exports = {};
 
 exports.app_name = process.cwd().split('/').pop();
-exports.answers = [exports.app_name, 'y', 'mocha', 'y', 'y'];
+exports.def_answers = [exports.app_name, 'y', 'mocha', 'y', 'y'];
 
 exports.run = function () {
   var self = this,
@@ -44,10 +44,11 @@ exports.run = function () {
 
   function promptUser(arr, idx) {
     if (idx >= arr.length) {
-      creation.processAnswers(self.answers, finalise);
+      reader.close();
+      creation.processAnswers(self.def_answers, finalise);
     } else {
       reader.question(arr[idx], function (ans) {
-        self.answers[idx] = ans || self.answers[idx];
+        self.def_answers[idx] = ans || self.def_answers[idx];
         promptUser(arr, ++idx);
       });
     }

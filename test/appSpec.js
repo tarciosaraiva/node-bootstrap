@@ -40,12 +40,11 @@ describe('app', function () {
 
     it('should have prompted user for 5 questions', function () {
       clock.tick(500);
-      assert.equal(app.answers.length, 5, 'should have 6 answers');
-
+      assert.equal(app.def_answers.length, 5, 'should have 5 answers');
     });
 
     it('should have app name as "appSpec"', function () {
-      assert.equal(app.answers[0], 'appSpec', 'second answer should be appSpec');
+      assert.equal(app.def_answers[0], 'appSpec', 'second answer should be appSpec');
     });
 
   });

@@ -1,6 +1,6 @@
 {
   "name": "nodecreate",
-  "version": "0.0.6-2",
+  "version": "0.0.6-3",
   "description": "Utility to create a new node.js project providing a basic directory structure",
   "bin": {
     "ncreate": "./bin/nodecreate"
