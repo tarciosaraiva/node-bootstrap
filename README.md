@@ -6,6 +6,8 @@ nodecreate
 
 Bootstraps a new `node` application.
 
+[![NPM](https://nodei.co/npm/nodecreate.png)](https://nodei.co/npm/nodecreate/)
+
 I created this utility to help out other devs when deciding how to structure their new `node` app. When you run `npm init` then only thing that happens is the creation of the `package.json`.
 
 After some research I found that devs usually find have at least a `test` folder while some others have a `lib` folder where they keep their own files accessed from the main file.
