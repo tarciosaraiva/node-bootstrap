@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/tarciosaraiva/nodecreate.svg?branch=master)](https://travis-ci.org/tarciosaraiva/nodecreate)
 [![Code Climate](https://codeclimate.com/github/tarciosaraiva/nodecreate.png)](https://codeclimate.com/github/tarciosaraiva/nodecreate)
+[![Dependency Status](https://gemnasium.com/tarciosaraiva/nodecreate.svg)](https://gemnasium.com/tarciosaraiva/nodecreate)
 
 nodecreate
 ==========
