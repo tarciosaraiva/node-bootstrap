@@ -1,10 +1,11 @@
 {
   "name": "nodecreate",
-  "version": "0.0.6-4",
-  "description": "Utility to create a new node.js project providing a basic directory structure",
+  "version": "0.0.6-5",
+  "description": "Utility to create a new Node.js project by providing a basic directory structure",
   "bin": {
     "ncreate": "./bin/nodecreate"
   },
+  "preferGlobal": "true",
   "scripts": {
     "test": "mocha -R spec"
   },
@@ -20,9 +21,13 @@
     "node",
     "create",
     "new project",
-    "helper"
+    "helper",
+    "wizard",
+    "project bootstrap",
+    "project wizard",
+    "utility"
   ],
-  "author": "Tarcio Saraiva",
+  "author": "Tarcio Saraiva <tarcio@gmail.com> (http://tarciosaraiva.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tarciosaraiva/nodecreate/issues"
