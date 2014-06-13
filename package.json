@@ -1,13 +1,13 @@
 {
   "name": "nodecreate",
-  "version": "0.0.6-5",
+  "version": "0.0.7",
   "description": "Utility to create a new Node.js project by providing a basic directory structure",
   "bin": {
     "ncreate": "./bin/nodecreate"
   },
   "preferGlobal": "true",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha --recursive --check-leaks -R spec"
   },
   "repository": {
     "type": "git",
@@ -34,12 +34,13 @@
   },
   "homepage": "https://github.com/tarciosaraiva/nodecreate",
   "dependencies": {
-    "init-package-json": "~0.0.15"
+    "init-package-json": "^0.1.x",
+    "winston": "^0.7.x"
   },
   "devDependencies": {
-    "mocha": "~1.18.x",
-    "sinon": "~1.9.x",
-    "rimraf": "~2.2.x",
-    "chai": "~1.9.x"
+    "mocha": "^1.x.x",
+    "sinon": "^1.x.x",
+    "rimraf": "^2.x.x",
+    "chai": "^1.x.x"
   }
 }
