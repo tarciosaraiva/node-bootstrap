@@ -1,6 +1,7 @@
 'use strict';
 
 var readline = require('readline');
+var logger = require('./lib/logger');
 var creation = require('./lib/creation');
 
 exports = module.exports = {};
@@ -35,7 +36,11 @@ exports.run = function () {
     ].join('\n')
   );
 
+  console.log('Log file created at [' + logger.file + ']');
+  logger.log('info', 'Started creation process.');
+
   function finalise() {
+    logger.log('info', 'Process completed.');
     console.log([
       'Woohoo, all done!',
       'Go to your project folder, run `npm install` and you are ready to go.'
@@ -48,6 +53,7 @@ exports.run = function () {
       creation.processAnswers(self.def_answers, finalise);
     } else {
       reader.question(arr[idx], function (ans) {
+        logger.log('info', 'Processing answer [%s] for question [%s]', ans, questions[idx]);
         self.def_answers[idx] = ans || self.def_answers[idx];
         promptUser(arr, ++idx);
       });
